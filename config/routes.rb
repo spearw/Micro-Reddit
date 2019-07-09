@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'users/new'
   get 'homepage/index'
 
   resources :posts do
