@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
   get 'users/new'
   get 'homepage/index'
+  get  '/signup',  to: 'users#new'
+  post '/signup', to: 'users#show'
 
+  resources :users
   resources :posts do
    resources :comments
  end
