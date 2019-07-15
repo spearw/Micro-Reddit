@@ -6,6 +6,21 @@
 
 }
 
+/* centering */
+
+.wrapper{
+  text-align:center;
+}
+
+.content{
+  display:inline-block;
+  text-align: justify;
+}
+
+h1{
+  text-align: center;
+}
+
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
@@ -88,4 +103,18 @@ input {
   .form-control {
     color: red;
   }
+}
+
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span{
+    margin-left: 20px;
+    font-weight: normal;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
 }
