@@ -21,6 +21,10 @@
 /storage/*
 !/storage/.keep
 
+# Ignore IntelliJ files
+/.idea
+.idea
+
 /node_modules
 /yarn-error.log
 
